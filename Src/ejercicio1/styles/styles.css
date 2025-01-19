@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn_tamaño{
+    width: 30% ;
+    height: 30%;
+}
