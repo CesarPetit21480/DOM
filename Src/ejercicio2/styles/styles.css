@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn_tamaño{
+    width: 30% ;
+    height: 30%;
+}
+.input_tamaño{
+
+    width: 8rem ;
+    height: 8rem;
+    font-size: 80px;
+    text-align: center;
+}
+
+.juego{
+    background-color: rgb(94, 223, 223);
+    border: 1px solid #ccc;
+    padding: 3rem 1rem 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+body {
+    background-image: url(../assets/tablero-juego-numero-4-el_889056-230389.avif);
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-position: center; 
+    height: 100vh;
+}

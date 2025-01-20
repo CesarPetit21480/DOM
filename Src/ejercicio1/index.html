@@ -14,11 +14,24 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="d-flex flex-column mb-3 justify-content-center align-items-center mb-5">
+      <div
+        class="d-flex flex-column mb-3 justify-content-center align-items-center mb-5"
+      >
         <h1 class="text-center">Bienvenido al Numero Magico</h1>
-        <button class="btn btn-primary btn_tamaño mt-5" id="btn_comenzar">
+        <button class="btn btn-primary btn_tamaño mt-5 mb-5" id="btn_comenzar">
           Presione Para Comenzar el Juego
         </button>
+        <div id="panel_juego" class=" d-none d-flex flex-column mb-3 justify-content-center align-items-center juego">
+          <label class="mb-2">Ingrese un numero</label>
+          <input
+            class="mb-5 input_tamaño"
+            type="text"    
+            id="nroIngresado"        
+          />
+          <button class="btn btn-secondary" id="btn_verificar">
+           verificar Numero
+          </button>
+        </div>
       </div>
     </div>
     <script src="./script/script.js"></script>
